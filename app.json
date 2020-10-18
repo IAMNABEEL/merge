@@ -1,0 +1,28 @@
+{
+	"expo": {
+		"name": "sharedCAB",
+		"slug": "sharedCAB",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/splash.png",
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#fff"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true
+		},
+		"android": {
+			"package": "com.sharedCAB.myapp",
+			"versionCode": 1
+		},
+		"web": {
+			"favicon": "./assets/splash.png"
+		}
+	}
+}
